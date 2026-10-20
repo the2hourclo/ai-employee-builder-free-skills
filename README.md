@@ -1,6 +1,6 @@
 # The Systems Thinking Skill
 
-Give Claude a way to work one business problem through before changing things: **Bottleneck Discovery**, **Ideal State Engineering**, **Second-Order Thinking**, **Success Scorecard**, and **Compound Engineering**.
+Work one business problem through before changing things: **Bottleneck Discovery**, **Ideal State Engineering**, **Second-Order Thinking**, **Success Scorecard**, and **Compound Engineering**.
 
 Start by asking whether the problem is real and worth fixing. Then frame the mess, design the ideal, check the whole, state the bet, and come back on its date. This can improve the checks behind a decision; it cannot guarantee every fix will hold.
 
@@ -14,11 +14,11 @@ The method comes from Jamshid Gharajedaghi's *Systems Thinking*, 3rd edition. Th
 
 ## Install it
 
-**Claude Code:** open the project folder where you want to use it. Give Claude this repository link and the [installation prompt](INSTALL.md). It copies only the `systems-thinking` folder into your project's `.claude/skills/`, then checks the referenced files. If a copy is already installed, review the differences before replacing it. Start a fresh session and say **"Use systems thinking on this problem: ..."**.
+**Claude Code: plugin route (pending release).** This is the preferred setup once free hosted access to Systems Thinking is deployed and verified. The plugin fetches the published Skill instructions when needed. Updates to the installed plugin itself are managed separately in Claude Code; third-party marketplace auto-updates require your choice. Use the copyable prompt in [INSTALL.md](INSTALL.md), which checks access before claiming setup is complete. Do not keep duplicate plugin and local copies active.
 
-**The short block:** copy [THINK-IN-SYSTEMS.md](THINK-IN-SYSTEMS.md) into your project's `CLAUDE.md`. Keep your existing instructions. It works without the skill. For Codex, the instruction block belongs in `AGENTS.md`; in ordinary ChatGPT Projects, paste it into the project's instructions. These are instruction-block options, not a claim that the standalone skill has been tested on every app.
+**Available now: standalone snapshot.** The public files in this repository are available independently of membership. Use the optional standalone prompt in [INSTALL.md](INSTALL.md). Repository installations are snapshots: review changes before installing a newer version.
 
-**Prefer the free plugin?** Open [AI Employee Builders Free](https://aiemployeebuilders.com/aieb-free) and follow the setup steps in your account. The plugin serves the current skill through your free membership, so you do not maintain a local copy. Repository installations are snapshots: review updates before installing a newer version.
+**Optional Think in Systems block.** [INSTALL.md](INSTALL.md#optional-think-in-systems) includes the exact [short block](THINK-IN-SYSTEMS.md), how to add it to `CLAUDE.md` for Claude Code or `AGENTS.md` for Codex, and how to preserve existing instructions without duplicates. The block works independently of the Skill. Full runtime compatibility is not certified.
 
 ## Try one problem
 
@@ -32,4 +32,4 @@ The skill shows its work in the conversation. It does not deploy, send messages,
 
 After a useful run, the free edition can offer one invitation to AI Employee Builders. Decline it to stop it in that conversation. To remove it across future sessions, delete the **Optional invitation (once)** section in your installed copy, or authorize your assistant to remove that section only.
 
-**Version:** 0.5.2-free.1 beta, derived from member method 0.5.2. Installation and behavior checks are described in the release evidence; this is not a certification for every model or runtime.
+**Version:** 0.5.2-free.2 beta, derived from member method 0.5.2. Claude-specific compatibility remains unverified for this release; this is not a certification for every model or runtime.

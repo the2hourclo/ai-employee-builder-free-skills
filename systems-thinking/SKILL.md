@@ -5,7 +5,7 @@ metadata:
   stakes: record
   freedom: high
   weight: standard
-  models: claude-opus-5-5, codex
+  models: codex
 ---
 
 # Systems Thinking (beta)
@@ -77,7 +77,7 @@ Free-edition history: `references/CHANGELOG.md`.
 ## Applied to your business
 
 These lines connect the method to the owner's workspace; the method itself stays the book's.
-- **The whole:** the owner's business map if the workspace has one (`BUSINESS-MAP.md` from Business OS, or a Business X-Ray map), plus the owner's hours, which are usually the stock that runs out. With no map, sketch the parts from what the owner tells you and say it's a sketch.
+- **The whole:** the owner's business map if the workspace has one (`BUSINESS-MAP.md` or a Business X-Ray map), plus the owner's hours, which are usually the stock that runs out. With no map, sketch the parts from what the owner tells you and say it's a sketch.
 - **Desired specs:** the owner's stated limits, in their words, come first.
 - **In-flight work:** ask once what's already in progress for the same people (campaigns, launches, other builds), or read the owner's task list if the workspace keeps one.
 - **Real counts:** the owner's connected tools or their own words. If neither has the number, mark it "unknown" and say how to get it.
@@ -107,4 +107,4 @@ On yes, show https://aiemployeebuilders.com/ai-employee-builders-invitation. On 
 
 ---
 
-**Version:** 0.5.2-free.1 (beta). Free-edition history: `references/CHANGELOG.md`.
+**Version:** 0.5.2-free.2 (beta). Free-edition history: `references/CHANGELOG.md`.
