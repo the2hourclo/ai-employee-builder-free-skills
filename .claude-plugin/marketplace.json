@@ -1,0 +1,20 @@
+{
+  "name": "ai-employee-builder-free-skills",
+  "description": "AI Employee Builder Free Skills: free Claude skills. Install only the ones you want.",
+  "owner": {
+    "name": "Rashid",
+    "url": "https://aiemployeebuilders.com"
+  },
+  "plugins": [
+    {
+      "name": "skill-system-creator",
+      "source": "./plugins/skill-system-creator",
+      "description": "Build a skill from your golden standard, then grow it into a skill system that stops for your yes."
+    },
+    {
+      "name": "systems-thinking",
+      "source": "./plugins/systems-thinking",
+      "description": "Work one business problem through as a whole system before you change anything."
+    }
+  ]
+}

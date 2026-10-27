@@ -1,35 +1,43 @@
-# The Systems Thinking Skill
+# AI Employee Builder Free Skills
 
-Work one business problem through before changing things: **Bottleneck Discovery**, **Ideal State Engineering**, **Second-Order Thinking**, **Success Scorecard**, and **Compound Engineering**.
+Free Claude skills you can install one at a time. Each one is its own plugin, so install only the ones you want.
 
-Start by asking whether the problem is real and worth fixing. Then frame the mess, design the ideal, check the whole, state the bet, and come back on its date. This can improve the checks behind a decision; it cannot guarantee every fix will hold.
+| Skill | What it does |
+|---|---|
+| [Skill System Creator](plugins/skill-system-creator/) | Hand Claude your golden standard (your best examples, how you do the job, and when to use it). It interviews you, builds the skill, then grows it into a skill system that stops for your yes. |
+| [Systems Thinking](plugins/systems-thinking/) | Work one business problem through as a whole system before you change anything. |
 
-## What you get
+## Install in Claude Code
 
-- `systems-thinking/`: the complete standalone beta skill, its five workflows and book-case summaries. No other skill or paid plugin is required.
-- [THINK-IN-SYSTEMS.md](THINK-IN-SYSTEMS.md): the short approved instruction block, unchanged.
-- This README and an [installation prompt](INSTALL.md). There is no ZIP to download.
+Type this in Claude Code, either in the terminal or in the Code tab of the Claude desktop app:
 
-The method comes from Jamshid Gharajedaghi's *Systems Thinking*, 3rd edition. The book and its images are not included. The worth-fixing gate and safeguards marked "our rule" are additions to the method.
+```
+/plugin install skill-system-creator --marketplace the2hourclo/ai-employee-builder-free-skills
+```
 
-## Install it
+On an older Claude Code, use two lines instead:
 
-**Claude Code: plugin route (pending release).** This is the preferred setup once free hosted access to Systems Thinking is deployed and verified. The plugin fetches the published Skill instructions when needed. Updates to the installed plugin itself are managed separately in Claude Code; third-party marketplace auto-updates require your choice. Use the copyable prompt in [INSTALL.md](INSTALL.md), which checks access before claiming setup is complete. Do not keep duplicate plugin and local copies active.
+```
+/plugin marketplace add the2hourclo/ai-employee-builder-free-skills
+/plugin install skill-system-creator@ai-employee-builder-free-skills
+```
 
-**Available now: standalone snapshot.** The public files in this repository are available independently of membership. Use the optional standalone prompt in [INSTALL.md](INSTALL.md). Repository installations are snapshots: review changes before installing a newer version.
+Swap `skill-system-creator` for `systems-thinking` to install the other one. Run `/reload-plugins` afterwards, or start a new session.
 
-**Optional Think in Systems block.** [INSTALL.md](INSTALL.md#optional-think-in-systems) includes the exact [short block](THINK-IN-SYSTEMS.md), how to add it to `CLAUDE.md` for Claude Code or `AGENTS.md` for Codex, and how to preserve existing instructions without duplicates. The block works independently of the Skill. Full runtime compatibility is not certified.
+Or paste this prompt and let Claude do it:
 
-## Try one problem
+```text
+Install the skill-system-creator plugin from the GitHub marketplace the2hourclo/ai-employee-builder-free-skills. Show me each command before you run it.
+```
 
-"Use systems thinking on this: I keep adding rules to my AI instructions to fix one output, but other outputs then get worse. Ask me what actually happened before designing a fix. Do not change any files."
+## Update
 
-It should frame the problem and wait for you to confirm it before opening the design workflow. Simple facts and work against a clear written spec do not need the full process.
+Run `/plugin marketplace update ai-employee-builder-free-skills`, then `/reload-plugins`.
 
-## Your control
+## Using Codex, or no plugins?
 
-The skill shows its work in the conversation. It does not deploy, send messages, create schedules or edit business records on its own. The review cycle needs data and a decisions log you choose. It never treats missing data as zero, and the person who built a change does not grade it.
+See [INSTALL.md](INSTALL.md) to copy a skill straight into your project.
 
-After a useful run, the free edition can offer one invitation to AI Employee Builders. Decline it to stop it in that conversation. To remove it across future sessions, delete the **Optional invitation (once)** section in your installed copy, or authorize your assistant to remove that section only.
+## What these free skills don't do
 
-**Version:** 0.5.2-free.2 beta, derived from member method 0.5.2. Claude-specific compatibility remains unverified for this release; this is not a certification for every model or runtime.
+They build, run and fix skills. They don't add automatic checks, test sets, library audits or scheduling, which are the parts that keep a skill system reliable as it grows. Those, plus production-grade skills kept up to date, come with the AI Employee Builder plugin inside [AI Employee Builders](https://aiemployeebuilders.com/ai-employee-builders-invitation).
