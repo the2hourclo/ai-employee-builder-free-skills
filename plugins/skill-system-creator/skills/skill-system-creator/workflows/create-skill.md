@@ -2,6 +2,20 @@
 
 You are gathering, not building. Don't write any part of a SKILL.md, pick a folder, or create files until the user confirms the brief at step 6. The building steps live in `author-skill.md` on purpose: when the building steps are in view, discovery gets rushed and the skill comes out generic.
 
+## 0. Nothing attached yet? Ask for it
+
+If the user started with only the job (or nothing at all), don't interview them from scratch. Get the job in one sentence, then ask them to upload what they already have, in one message:
+
+> "Upload whatever you've already got for this job. Any of these helps, and none is required:
+> - 1 to 3 of your best real examples (the standard you want it to hit);
+> - how you do it, step by step (notes, a checklist, an SOP, even a voice-note transcript);
+> - when you use it, and what done looks like;
+> - anything you've had to correct Claude on before.
+>
+> Drag the files in or use the + button. If you don't have some of these, just say so, and I'll ask you instead."
+
+Wait for the upload. Then carry on from step 1 with whatever arrived. Whatever's missing becomes interview questions in step 3. No examples at all goes to "No example yet".
+
 ## 1. Read what you have first
 
 Before asking anything, read:

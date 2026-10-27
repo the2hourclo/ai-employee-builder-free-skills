@@ -13,6 +13,8 @@ description: "Build a Claude skill from your golden standard, then grow it into 
 | Chain skills into a skill system ("build a skill system", "add the next step", "turn this skill into a system") | `workflows/build-skill-system.md` |
 | Change a skill that already exists ("fix the skill", "add this rule", "it keeps doing X") | `workflows/fix-skill.md` |
 
+Invoked by name with no request (for example `/skill-system-creator:skill-system-creator` on its own)? Ask one question: "What job do you want Claude to do your way? Tell me in a sentence, and I'll ask for anything else I need." Then route from the answer. Most first-timers want one skill.
+
 Not sure if it's one job or several? Try to say the job in one sentence with one verb ("write the follow-up email"). If you need "and… and…", it's a skill system.
 
 ## How this skill works
